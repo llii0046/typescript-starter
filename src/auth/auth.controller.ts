@@ -7,6 +7,7 @@ import { AuthService } from './auth.service';
 import {
   Body,
   HttpCode,
+  Query,
 } from '@nestjs/common/decorators';
 import { AuthDto } from './dto';
 import {
